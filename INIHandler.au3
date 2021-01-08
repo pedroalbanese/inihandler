@@ -4,14 +4,14 @@
 
 If $CmdLineRaw == "" Then
    ConsoleWrite("INI Files Handler Win32 - ALBANESE Lab " & Chr(184) & " 2018-2020" & @CRLF & @CRLF);
-   	  ConsoleWrite("Commands:" & @CRLF);
-      ConsoleWrite(" -set: SET value" & @CRLF);
-	  ConsoleWrite(" -get: GET sections names/parameters/value" & @CRLF);
-	  ConsoleWrite(" -del: DELETE parameter/value" & @CRLF & @CRLF);
-	  ConsoleWrite("Flags:" & @CRLF);
-      ConsoleWrite("   /s: SECTION" & @CRLF);
-	  ConsoleWrite("   /p: PATAMETER" & @CRLF);
-	  ConsoleWrite("   /v: VALUE" & @CRLF & @CRLF);
+   ConsoleWrite("Commands:" & @CRLF);
+   ConsoleWrite(" -set: SET value" & @CRLF);
+   ConsoleWrite(" -get: GET sections names/parameters/value" & @CRLF);
+   ConsoleWrite(" -del: DELETE parameter/value" & @CRLF & @CRLF);
+   ConsoleWrite("Flags:" & @CRLF);
+   ConsoleWrite("   /s: SECTION" & @CRLF);
+   ConsoleWrite("   /p: PATAMETER" & @CRLF);
+   ConsoleWrite("   /v: VALUE" & @CRLF & @CRLF);
    ConsoleWrite("Usage: " & @ScriptName & " --set <config_file> /s <section> /p <param> /v <value>" & @CRLF);
    ConsoleWrite("   or: " & @ScriptName & " --get <config_file> /s [section] /p [param]" & @CRLF);
    ConsoleWrite("   or: " & @ScriptName & " --del <config_file> /s <section> /p [param]" & @CRLF & @CRLF);
