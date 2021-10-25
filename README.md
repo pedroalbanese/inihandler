@@ -23,3 +23,7 @@ Usage: INIHandler.exe --set &ltconfig_file> /s &ltsection&gt; /p &ltparam&gt; /v
 Written by Pedro Albanese
 http://albanese.atwebpages.com
 </pre>
+
+## License
+
+This project is licensed under the ISC License.
